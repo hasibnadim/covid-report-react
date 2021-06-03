@@ -1,0 +1,20 @@
+nav {
+  background-color: rgb(127, 219, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  .img-div {
+    img {
+      height: 50px;
+    }
+  }
+  ul {
+    list-style: none;
+    li {
+      cursor: pointer;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}

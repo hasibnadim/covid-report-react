@@ -12,5 +12,8 @@
   "editor.cursorBlinking": "smooth",
   "workbench.colorCustomizations": {
     "editor.background": "#010116"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

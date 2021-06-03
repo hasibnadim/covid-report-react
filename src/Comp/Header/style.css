@@ -1,0 +1,27 @@
+nav {
+  background-color: #7fdbff;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .img-div img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */
