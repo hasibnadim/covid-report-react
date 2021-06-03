@@ -27,6 +27,7 @@ export default class Body extends Component {
   }
 
   render() {
+    var view;
     if (this.state.covidData) {
       var worldView = (
         <div className="world_view">
@@ -123,16 +124,14 @@ export default class Body extends Component {
           </table>
         </div>
       );
-      var view = (
+      view = (
         <div>
           {worldView}
           {countryView}
         </div>
       );
     } else {
-      var view = (
-        <div className="spinner-border loading_style" role="status"></div>
-      );
+      view = <div className="spinner-border loading_style" role="status"></div>;
     }
     return <div className="container-lg">{view}</div>;
   }
