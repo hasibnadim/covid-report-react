@@ -1,15 +1,12 @@
-import React from 'react'
-import logo from '../../logo.png'
-import "./style.css"
+import React from 'react';
+
+import './style.css';
 export default function Header() {
-    return (
-        <nav>
-            <div className="img-div">
-                <img src={logo} alt="logo" />
-            </div>
-            <ul>
-                <li>Home</li>
-            </ul>
-        </nav>
-    )
+  return (
+    <nav className="navbar navbar-dark bg-primary">
+      <div className="container">
+        <span className="navbar-brand">Cov-19</span>
+      </div>
+    </nav>
+  );
 }
